@@ -10,6 +10,9 @@ Aún no domino bien JSON y txt por lo tanto decidí no implementarlo.
 ## Lenguaje
 - Python 3
 
+## Cómo ejecutarlo
+- Clona este repo o descarga los archivos y ejecútalo desde Visual Studio Code
+  
 ## Estado
 - Completado -- Proyecto básico para practicar lógica, bucles y entrada de datos.
 
