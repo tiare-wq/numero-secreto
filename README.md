@@ -14,7 +14,7 @@ Aún no domino bien JSON y txt por lo tanto decidí no implementarlo.
 - Completado -- Proyecto básico para practicar lógica, bucles y entrada de datos.
 
 ## Autor
-Tiare Salazar -- Inspirado en un ejercicio de Fundamentos de la Programación
+Tiare Salazar -- Inspirado en una prueba de Fundamentos de la Programación
 
 ## Retroalimentación
 Acepto comentarios y opiniones, aunque es super básico, pero gracias
