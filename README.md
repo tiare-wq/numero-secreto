@@ -1,11 +1,9 @@
 # numero-secreto
-Minijuego "¿Puedes eliminar cuál es la contraseña?"
+Minijuego "¿Puedes eliminar cuál es el número secreto?"
 
 'Número secreto' es un juego que consiste en ingresar dos números, uno menor y uno mayor, que serán el rango del número secreto,
 un número random. Se considera que es una parte del rompecabezas de un juego de aventura más grande. El Nigromante no mata al jugador,
 solo no le da el tesoro.
-
-Aún no domino bien JSON y txt por lo tanto decidí no implementarlo.
 
 ## Lenguaje
 - Python 3
