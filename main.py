@@ -6,6 +6,8 @@ import funciones
 import os
 import random
 import time
+import tkinter as tk
+from vista import VistaMinijuego as Vista
 
 # Función principal
 def main():
@@ -17,19 +19,23 @@ def main():
     ruta_top = os.path.join(ruta, "top.json")
     top = funciones.cargar_archivos(ruta_top)
     
+    # Inicia Tkinter e instancia la ventana root
+    root = tk.Tk()
+
+    app = Vista(root)
+        
+    app.menu()
+
+    funciones.menu()
 
     while True:
-        
-        funciones.menu()
-
-        while True:
-            try:
-                opcion = int(input("Elija una opción: "))
-                if opcion in range(1, 5):
-                    break
-                print("Opción fuera de rango.\n")
-            except ValueError:
-                print("Debes ingresar valores numéricos.\n")
+        try:
+            opcion = int(input("Elija una opción: "))
+            if opcion in range(1, 5):
+                break
+            print("Opción fuera de rango.\n")
+        except ValueError:
+            print("Debes ingresar valores numéricos.\n")
 
         print()
         if opcion == 1:
@@ -119,5 +125,7 @@ def main():
 
         time.sleep(1)
         input("Presiona ENTER para continuar")
+    
+    root.mainloop()
 
 main()
