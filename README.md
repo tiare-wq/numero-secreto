@@ -18,6 +18,7 @@ solo no le da el tesoro.
   
 ## Estado
 - Completado -- Proyecto básico para practicar lógica, bucles y entrada de datos.
+- En proceso -- Diseño de la interfaz
 
 ## Autor
 Tiare Salazar -- Inspirado en una prueba de Fundamentos de la Programación
