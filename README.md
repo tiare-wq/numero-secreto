@@ -1,5 +1,5 @@
 # numero-secreto
-Minijuego "¿Puedes eliminar cuál es el número secreto?"
+Minijuego — Pyhton, (Tkinter, Pillow)
 
 'Número secreto' es un juego que consiste en ingresar dos números, uno menor y uno mayor, que serán el rango del número secreto,
 un número random. Se considera que es una parte del rompecabezas de un juego de aventura más grande. El Nigromante no mata al jugador,
